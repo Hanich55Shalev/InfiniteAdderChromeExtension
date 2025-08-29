@@ -45,4 +45,4 @@ This is a chrome extension that allows the user to enter two item names, which w
 ---
 
 # How to use
-- When in the neal.fun/infinite-craft/ tab, locate the extensions icon in the chrome toolbar, and click it. If your extension is turned on, it should open a list of extensions. Select the infinite adder extension, and a popup with a GUI adding form will be opened.
+- When in the `neal.fun/infinite-craft/` tab, locate the extensions icon in the chrome toolbar, and click it. If your extension is turned on, it should open a list of extensions. Select the infinite adder extension, and a popup with a GUI adding form will be opened.
