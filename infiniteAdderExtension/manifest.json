@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Infinitecraft Adder",
+    "version": "1.0",
+    "description": "An extension to add two item names together and save the result in the game InfiniteCraft",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/infinity.png",
+            "24": "images/infinity.png",
+            "32": "images/infinity.png",
+            "64": "images/infinity.png"
+        }
+    },
+    "icons": {
+        "16": "images/infinity.png",
+        "24": "images/infinity.png",
+        "32": "images/infinity.png",
+        "64": "images/infinity.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://neal.fun/infinite-craft/"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
